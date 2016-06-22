@@ -1,0 +1,6 @@
+*.swp
+*.lock*
+*.zshrc
+
+*/bin/*
+*/obj/*

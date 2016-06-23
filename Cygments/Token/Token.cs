@@ -108,7 +108,7 @@ namespace Cygments.Token {
       public static readonly TokenType Prompt = new TokenType("Prompt", "gp", Token.Generic.Value);
       public static readonly TokenType Strong = new TokenType("Strong", "gs", Token.Generic.Value);
       public static readonly TokenType Subheading = new TokenType("Subheading", "gu", Token.Generic.Value);
-      public static readonly TokenType Traceback = new TokenType("Traceback", "gt");
+      public static readonly TokenType Traceback = new TokenType("Traceback", "gt", Token.Generic.Value);
     }
   }
 }

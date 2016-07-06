@@ -1,12 +1,9 @@
 ﻿using Xunit;
 
-namespace BasicApiTests
-{
-    public class Lexer
-    {
+namespace BasicApiTests {
+    public class Lexer {
         [Fact]
-        public void LexerInstantiateAll()
-        {
+        public void GetLexers() {
             Assert.True(false);
         }
 
@@ -16,12 +13,12 @@ namespace BasicApiTests
         }
 
         [Fact]
-        public void LexerOptions() {
+        public void LexerInstantiateAll() {
             Assert.True(false);
         }
 
         [Fact]
-        public void GetLexers() {
+        public void LexerOptions() {
             Assert.True(false);
         }
     }

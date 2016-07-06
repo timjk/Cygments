@@ -1,11 +1,5 @@
-﻿using System;
-
-namespace Cygments
-{
-    public class Program
-    {
-      public static void Main(string[] args) {
-        
-      }
+﻿namespace Cygments {
+    public class Program {
+        public static void Main(string[] args) {}
     }
 }

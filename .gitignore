@@ -2,6 +2,9 @@
 *.swo
 *.lock*
 *.zshrc
+*.xproj
+*.user
 
 */bin/*
 */obj/*
+*/.vs/*

@@ -9,6 +9,8 @@ namespace Cygments.Lexers {
         private readonly LexerOptions _options = new LexerOptions();
         private readonly ICollection<IFilter> _filters = new List<IFilter>();
 
+        protected virtual Dictionary<string, List<object>> Tokens { get; }
+
         public Lexer() {}
 
         public Lexer(ICollection<IFilter> filters) {

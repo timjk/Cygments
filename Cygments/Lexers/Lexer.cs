@@ -32,6 +32,7 @@ namespace Cygments.Lexers {
         public string[] AliasFilenames { get; }
         public string[] MimeTypes { get; }
         public int Priority { get; }
+        public bool[] Flags { get; }
 
         public void AddFilter(IFilter filter) {
             _filters.Add(filter);
